@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Story Writing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>  
+
+  <h1>Story Writing</h1>
+
+  <form action="story.php" method="post" enctype="multipart/form-data" class="form-container">
+    
+    <div class="form-group">
+      <label for="author">Author's Name:</label>
+      <input type="text" name="author" id="author" required />
+    </div>
+
+    <div class="form-group">
+      <label for="title">Title:</label>
+      <input type="text" name="title" id="title" required />
+    </div>
+
+    <div class="form-group">
+      <label for="para">Your Art:</label>
+      <textarea name="para" id="para" maxlength="2000"></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="wordFile">Upload Word File:</label>
+      <input type="file" name="wordFile" id="wordFile" />
+    </div>
+
+    <input type="submit" name="submit" value="Submit" class="submit-btn" />
+	
+	<a href="register.html">Register Now</a>
+  </form>
+  
+
+
+</body>
+</html>
