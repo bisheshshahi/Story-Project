@@ -5,7 +5,7 @@
 		$uname = $_POST["uname"];
 		$pwd   = $_POST["pwd"];
 		
-		$select = "SELECT * FROM user WHERE username = '$uname' AND password = '$pwd'";
+		$select = "SELECT * FROM author WHERE username = '$uname' AND password = '$pwd'";
 		$result = mysqli_query($con, $select) or die("Retrieval Error");
 
 		$n = mysqli_num_rows($result);
