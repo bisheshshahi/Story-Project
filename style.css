@@ -32,7 +32,6 @@ label {
 }
 
 input[type="text"],
-input[type="file"],
 textarea {
   width: 100%;
   padding: 10px;
