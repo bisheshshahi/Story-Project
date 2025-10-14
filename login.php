@@ -15,6 +15,12 @@ session_start();
 			echo "Welcome user, $uname";
 			setcookie('uname', $uname, time()+86400);
 			setcookie('pwd', $pwd, time()+86400);
+		
+?>
+<br>
+			<a href='my_stories.php'>My stories</a>
+	
+<?php
 		}
 		else{
 			echo "Please register this account or check your username and password and try again";
