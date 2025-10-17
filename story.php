@@ -24,3 +24,5 @@
 	}
 
 ?>
+
+<a href="my_stories.php">View the stories</a>
